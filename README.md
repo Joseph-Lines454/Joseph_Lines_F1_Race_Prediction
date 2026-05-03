@@ -1,4 +1,10 @@
-Overview of Project:
+Title:
+Race Prediction and Analytics
+
+Supervisor:
+Vivek Singh
+
+Overview of Project/Vison:
 This project aims to address a gap which is current present within current F1 dashboards.
 F1 dashboards solely focus on presenting analytics to users, however there is no predictive element of who could finish a race.
 The aim of this project is to provide users with predicitions on who is most likely to finish the race and present some simple analytics to the user.
