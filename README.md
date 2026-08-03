@@ -1,48 +1,23 @@
-Title:
-Race Prediction and Analytics
+# Race Prediction and Analytics
 
-Supervisor:
-Vivek Singh
+<img width="800" height="418" alt="F1_Prediction_Analytics" src="https://github.com/user-attachments/assets/3ab245d5-b875-47b5-a02d-b183c56553ed" />
 
-Overview of Project/Vison:
-This project aims to address a gap which is current present within current F1 dashboards.
-F1 dashboards solely focus on presenting analytics to users, however there is no predictive element of who could finish a race.
-The aim of this project is to provide users with predicitions on who is most likely to finish the race and present some simple analytics to the user.
+## Description
 
-React was used for the front end of the application, displays statistics to the user and FastAPI/python was used for the server code as well as querying the model.
-Pytorch was used for the development of the deep learning model.
+The aim of this project is to combine features from analytical dashboards with predictive models (neural networks) to allow for more insight into what might happen during a race weekend.
+This project allows for users to create accounts and login to applications. Users are able to view statistics using bar charts, line charts and tables. Additionally, Users can view data from previous seasons.
+Unit and Integration tests are performed using Jest for the front end and Pytest for the sever code.
 
-Whats included in the application?
-Users Can:
-View Predictions (these predictions are presented to user on the dashboard)
-View drivers/teams standings and see visualizations which include bar charts as well as line charts.
-View historical data and view bar charts showing distribution of points.
-Login as well as register for the application.
+## Languages/Frameworks
 
-
-
-
-
-
-
-
-
-Research for Checkpoint:
-
-Have decided on machine learning algorithm to use.
-Deep Neural Networks.
-
-
-Have also decided the data to use for the algorithm.
-
-
-https://arno.uvt.nl/show.cgi?fid=160905
-
-https://www.kaggle.com/datasets/jtrotman/formula-1-race-data?select=drivers.csv
-
-https://www.visualcrossing.com/resources/documentation/weather-data/where-can-you-find-high-quality-historical-weather-data-at-a-low-cost/
-
-https://tracinginsights.com/
-
-https://www.youtube.com/watch?v=i_LwzRVP7bg&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s
+- Python
+- FastAPI
+- AWS EC2
+- MongoDB
+- Docker
+- React
+- Recharts
+- Pytorch
+- Jest
+- Pytest
 
