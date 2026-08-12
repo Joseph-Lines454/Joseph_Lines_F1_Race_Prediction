@@ -59,7 +59,7 @@ def CheckCookies(checkCookies):
 
 RAPIDAPI = http.client.HTTPSConnection("f1-live-pulse.p.rapidapi.com")
 headersLIVE = {
-    'x-rapidapi-key': "6d3141966dmsh933f874f2dc3823p144d62jsn81e5fa2d240f",
+    'x-rapidapi-key': "",
     'x-rapidapi-host': "f1-live-pulse.p.rapidapi.com",
     'Content-Type': "application/json"
     }
@@ -95,7 +95,7 @@ loop = None
 token_url = "https://api.openf1.org/token"
 paramsLive_Telem = {
     "username": "joelines194@gmail.com",
-    "password": "BlTLAeNSZNu6pavN"
+    "password": ""
 }
 response_F1= requests.post(token_url,data=paramsLive_Telem)
 
@@ -112,7 +112,7 @@ else:
 
 response = http.client.HTTPSConnection("hyprace-api.p.rapidapi.com")
 headers = {
-    'x-rapidapi-key': "6d3141966dmsh933f874f2dc3823p144d62jsn81e5fa2d240f",
+    'x-rapidapi-key': "",
     'x-rapidapi-host': "hyprace-api.p.rapidapi.com",
    'Accept': "application/json",
     }

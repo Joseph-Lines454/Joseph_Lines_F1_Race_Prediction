@@ -44,7 +44,7 @@ services:
       - "8001:8001"
     environment:
       - PYTHONPATH=/app
-      - MONGO_URL=mongodb://adminUser:NewPassSecure33~@13.63.137.172:27017/Drivers?authSource=admin
+      - MONGO_URL=mongodb://USERNAME:PASSWORD@IPADDRESS:27017/Drivers?authSource=admin
     container_name: F1_Server_2
 
     #command: python3 server.py
