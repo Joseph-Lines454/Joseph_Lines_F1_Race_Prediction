@@ -21,3 +21,4 @@ Unit and Integration tests are performed using Jest for the front end and Pytest
 - Jest
 - Pytest
 
+### API Keys and database passwords no longer work
